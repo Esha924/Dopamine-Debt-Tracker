@@ -54,7 +54,7 @@ def show_last_entries():
         for line in lines[-4:][1:]:  # Last 3, skip header if present
             entries.append(line.strip())
     
-    print("\n=== Last 3 Entries ===")
+    print("\n=== Last Entries ===")
     for entry in entries[-3:]:  # Ensure max 3
         print(entry)
 
